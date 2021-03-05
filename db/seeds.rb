@@ -23,13 +23,13 @@ hobby10 = Hobby.create(name: "competitave duck herding", image: "https://encrypt
 hobby11 = Hobby.create(name: "scaffolding", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfmnUdeesNu_OeNk3regRqQEHbtsf1PY98qQ&usqp=CAU")
 
 
-Post.create(user: user1, hobby: hobby1, title: "How to wave a flag", description: "This will change your life", content: "What a blog post", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfmnUdeesNu_OeNk3regRqQEHbtsf1PY98qQ&usqp=CAU")
-Post.create(user: user2, hobby: hobby4, title: "New beetle tactics your mom did'nt tell you about", description: "No more windex needed", content: "The best blog post", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfmnUdeesNu_OeNk3regRqQEHbtsf1PY98qQ&usqp=CAU")
-Post.create(user: user3, hobby: hobby6, title: "Pairing for singles", description: "You don't want to be left hanging in the washing machine", content: "Another blog post", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfmnUdeesNu_OeNk3regRqQEHbtsf1PY98qQ&usqp=CAU")
-Post.create(user: user2, hobby: hobby2, title: "Dying in an elevator", description: "The one that will take you up to heaven", content: "To new heights", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfmnUdeesNu_OeNk3regRqQEHbtsf1PY98qQ&usqp=CAU")
+post1 = Post.create(user: user1, hobby: hobby1, title: "How to wave a flag", description: "This will change your life", content: "What a blog post", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfmnUdeesNu_OeNk3regRqQEHbtsf1PY98qQ&usqp=CAU")
+post2 = Post.create(user: user2, hobby: hobby4, title: "New beetle tactics your mom did'nt tell you about", description: "No more windex needed", content: "The best blog post", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfmnUdeesNu_OeNk3regRqQEHbtsf1PY98qQ&usqp=CAU")
+post3 = Post.create(user: user3, hobby: hobby6, title: "Pairing for singles", description: "You don't want to be left hanging in the washing machine", content: "Another blog post", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfmnUdeesNu_OeNk3regRqQEHbtsf1PY98qQ&usqp=CAU")
+post4 = Post.create(user: user2, hobby: hobby2, title: "Dying in an elevator", description: "The one that will take you up to heaven", content: "To new heights", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfmnUdeesNu_OeNk3regRqQEHbtsf1PY98qQ&usqp=CAU")
 
-Favorite.create(favoriter: user1 favorited: hobby1)
-Favorite.create(favoriter: user2 favorited: hobby8)
-Favorite.create(favoriter: user1 favorited: hobby10)
+fav1 = Favorite.create(favoriter: user1, favorited: hobby1)
+fav2 = Favorite.create(favoriter: user2, favorited: hobby8)
+fav3 = Favorite.create(favoriter: user1, favorited: hobby10)
 # Favorite.create(favoriter: user1, favorited: hobby1)
 puts "Seeded yay!!!!!!"
