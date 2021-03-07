@@ -11,7 +11,7 @@ user2 = User.create(username: "elevfan123", password: "123")
 user3 = User.create(username: "whatami", password: "123")
 
 hobby1 = Hobby.create(name: "flags", image: "https://www.gbposters.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/g/n/gn0547-flags-of-the-world.jpg")
-hobby2 = Hobby.create(name: "elevators", image: "https://lh3.googleusercontent.com/proxy/4da__7Bx9b5YSXSOmFbQNg_rT4heN-jsSuNK7HC_2ZKa5Or1cSGb86h6wZbbjKBk34xqxo7u_aA1R_fcq_KVAD0kgiSEPfxZkdoOo0aUyDf6T-3N5BG417p6I18E")
+hobby2 = Hobby.create(name: "elevators", image: "https://media-cdn.tripadvisor.com/media/photo-s/01/07/a2/14/elevator-door.jpg")
 hobby3 = Hobby.create(name: "underwater basket weaving", image: "http://1.bp.blogspot.com/_48_nrp08SjU/S9HOzwx66iI/AAAAAAAABsQ/4yGyfLMzJZI/s1600/DSCF1284_2.JPG")
 hobby4 = Hobby.create(name: "beetle fighting", image: "https://cmcitylife.imgix.net/clg/wp-content/uploads/2020/03/Battling-Beetles001-1.jpg?auto=format&fit=max&fm=jpg&q=45&w=400&s=5758f8d90ee32eea5b8d571805b67d16")
 hobby5 = Hobby.create(name: "extreme ironing", image: "https://i0.wp.com/www.boingboing.net/filesroot/photo42.jpg")
