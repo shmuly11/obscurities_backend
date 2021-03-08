@@ -13,4 +13,8 @@ class User < ApplicationRecord
     def fav_posts
         self.favoriteds.map{|favorited| favorited.posts}.flatten
     end
+
+    # def fav_author
+    #     self.fav_posts.map{|post| post.author}
+    # end
 end

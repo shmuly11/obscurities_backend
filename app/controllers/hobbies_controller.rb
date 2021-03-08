@@ -9,5 +9,14 @@ class HobbiesController < ApplicationController
         hobby = Hobby.find(params[:id])
         render json: hobby
     end
+
+    def create
+        hobby = Hobby.create(hobby_params)
+        render json: hobby
+    end
+
+    def hobby_params
+        params.permit(:name, :image)
+    end
     
 end
