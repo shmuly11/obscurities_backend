@@ -19,7 +19,7 @@ hobby6 = Hobby.create(name: "sock matching", image: "https://www.asimplelifebala
 hobby7 = Hobby.create(name: "stone skipping", image: "https://kasumian.files.wordpress.com/2015/10/nageru7.jpg")
 hobby8 = Hobby.create(name: "newsrading", image: "https://i2-prod.mirror.co.uk/incoming/article7346830.ece/ALTERNATES/s615b/GRABS-News-bombing.jpg")
 hobby9 = Hobby.create(name: "trees", image: "https://static01.nyt.com/newsgraphics/2020/12/06/trees/assets/images/tree-cover-2000.jpg")
-hobby10 = Hobby.create(name: "competitave duck herding", image: "https://brightvisionevents.co.uk/wordpress/wp-content/uploads/2018/04/DuckHerding-269x300.jpg")
+hobby10 = Hobby.create(name: "competitive duck herding", image: "https://brightvisionevents.co.uk/wordpress/wp-content/uploads/2018/04/DuckHerding-269x300.jpg")
 hobby11 = Hobby.create(name: "scaffolding", image: "https://scaffoldingsolutions.com/wp-content/uploads/2019/11/Picture1.png")
 
 
@@ -27,6 +27,7 @@ post1 = Post.create(user: user1, hobby: hobby1, title: "How to wave a flag", des
 post2 = Post.create(user: user2, hobby: hobby4, title: "New beetle tactics your mom did'nt tell you about", description: "No more windex needed", content: "The best blog post", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfmnUdeesNu_OeNk3regRqQEHbtsf1PY98qQ&usqp=CAU")
 post3 = Post.create(user: user3, hobby: hobby6, title: "Pairing for singles", description: "You don't want to be left hanging in the washing machine", content: "Another blog post", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfmnUdeesNu_OeNk3regRqQEHbtsf1PY98qQ&usqp=CAU")
 post4 = Post.create(user: user2, hobby: hobby2, title: "Dying in an elevator", description: "The one that will take you up to heaven", content: "To new heights", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfmnUdeesNu_OeNk3regRqQEHbtsf1PY98qQ&usqp=CAU")
+post5 = Post.create(user: user2, hobby: hobby10, title: "lots of ducks", description: "The one that will take you up to heaven", content: "To new heights", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfmnUdeesNu_OeNk3regRqQEHbtsf1PY98qQ&usqp=CAU")
 
 fav1 = Favorite.create(favoriter: user1, favorited: hobby1)
 fav2 = Favorite.create(favoriter: user2, favorited: hobby8)

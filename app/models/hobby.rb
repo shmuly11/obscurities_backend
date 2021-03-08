@@ -4,4 +4,6 @@ class Hobby < ApplicationRecord
 
     has_many :favorites
     has_many :favoriters, through: :favorites
+
+    
 end

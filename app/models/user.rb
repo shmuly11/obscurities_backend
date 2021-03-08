@@ -9,4 +9,8 @@ class User < ApplicationRecord
     has_many :comments
 
     validates :username, uniqueness: {case_sensitive: false}
+
+    def fav_posts
+        self.favoriteds.map{|favorited| favorited.posts}.flatten
+    end
 end
