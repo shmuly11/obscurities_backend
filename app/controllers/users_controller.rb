@@ -1,16 +1,16 @@
 class UsersController < ApplicationController
 
     def login
-        user = User.first
+        user = User.find_by(username: user_params[:username])
         render json: user
     end
 
-    def create
+    def signup
         user = User.create(user_params)
         if user.valid?
-        render json: user
+        render json: user, status: :created
         else
-            render json: {errors: user.errors.full_messages}
+            render json: {errors: user.errors.full_messages}, status: :unprocessable_entity
         end
     end
 
